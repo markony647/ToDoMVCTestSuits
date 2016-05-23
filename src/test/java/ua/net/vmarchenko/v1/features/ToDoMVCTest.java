@@ -224,9 +224,4 @@ public class ToDoMVCTest extends BaseTest {
         $("#todo-count>strong").shouldHave(exactText(Integer.toString(count)));
     }
 
-    @Step
-    public static void confirmEditByClickOutside(String oldTaskText, String newTaskText) {
-        startEdit(oldTaskText, newTaskText);
-        newTaskField.click();
-    }
 }
