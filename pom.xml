@@ -19,7 +19,7 @@
 
     ******************
 
-    firefox is a default browser, to use chrome use command mvn clean test -Dsuite=SmokeSuitTest -Ddriver.browser=chrome
+    firefox is a default browser, to use chrome use command mvn clean test -Dsuite=SmokeSuiteTest -Ddriver.browser=chrome
 
     -->
 

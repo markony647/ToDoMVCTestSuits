@@ -5,11 +5,10 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import ua.net.vmarchenko.v1.categories.Buggy;
 
-import static ua.net.vmarchenko.helpers.GivenHelpers.TaskType.ACTIVE;
-import static ua.net.vmarchenko.helpers.GivenHelpers.TaskType.COMPLETED;
-import static ua.net.vmarchenko.helpers.GivenHelpers.aTask;
-import static ua.net.vmarchenko.helpers.GivenHelpers.given;
 import static ua.net.vmarchenko.v1.pages.ToDoMVC.*;
+import static ua.net.vmarchenko.v1.pages.Givens.TaskType.*;
+import static ua.net.vmarchenko.v1.pages.Givens.*;
+
 
 public class TodosOperationsAtAllFilterTest extends BaseTest {
 

@@ -1,12 +1,9 @@
 package ua.net.vmarchenko.v1.features;
-
-
-import com.codeborne.selenide.ElementsCollection;
-import com.codeborne.selenide.SelenideElement;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import ua.net.vmarchenko.v1.categories.Smoke;
-import static ua.net.vmarchenko.helpers.GivenHelpers.given;
+
+import static ua.net.vmarchenko.v1.pages.Givens.given;
 import static ua.net.vmarchenko.v1.pages.ToDoMVC.*;
 
 
